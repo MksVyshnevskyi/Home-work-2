@@ -1,0 +1,141 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-button-color: #ffffff;
+}
+
+/* цвет основного текста #757575 */
+/* цвет заголовков #212121 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+
+.page {
+  background-color: #f5f4fa;
+}
+
+/* logo */
+
+.logo {
+  text-decoration: none;
+}
+.logo .logo-accent {
+  color: var(--accent-color);
+}
+.logo .logo-text {
+  color: #000000;
+}
+
+/* site-nav */
+.nav {
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.kontakt-nav .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.kontakt-nav .link:hover,
+.kontakt-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+.feature-list {
+  list-style: none;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list .text {
+  color: var(--primary-text-color);
+}
+
+/* button */
+.button {
+  color: var(--white-button-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  text-decoration: none;
+  color: var(--white-button-color);
+  background-color: var(--accent-color);
+}
+.button:focus,
+.button:hover {
+  color: var(--accent-color);
+  background-color: var(--white-button-color);
+}
+
+/* comand */
+.comand-section {
+  background-color: #e5e5e5;
+}
+.comand-list {
+  list-style: none;
+}
+.comand-list .title {
+  color: var(--title-text-color);
+}
+.comand-section .text {
+  color: var(--primary-text-color);
+}
+
+/* footer */
+.footer-logo {
+  text-decoration: none;
+}
+
+.footer-logo {
+  color: var(--white-button-color);
+}
+.footer-logo .logo-accent {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list .link {
+  text-decoration: none;
+  color: var(--white-button-color);
+}
+
+.footer-list .text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list .link:focus,
+.footer-list .link:hover {
+  color: var(--accent-color);
+}
